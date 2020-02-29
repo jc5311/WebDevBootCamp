@@ -1,0 +1,16 @@
+li
+{
+    border: 2px solid red;
+}
+
+/* Access ids with #[id-name] */
+#special
+{
+    background-color:yellow;
+}
+
+/* Access classes with .[class-name] */
+.completed
+{
+    text-decoration: line-through;
+}

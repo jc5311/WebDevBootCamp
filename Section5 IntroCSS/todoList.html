@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="todos.css">
+</head>
+<body>
+    <h1></h1>
+
+    <ul>
+        <!-- If we want multiple elements to be grouped together, we can use -->
+        <!-- classes instead! -->
+        <li class="completed">
+            <input type="checkbox" checked>
+            Walk Choco
+        </li>
+        <li class="completed">
+            <input type="checkbox" checked>
+            Buy Groceries
+        </li>
+        <li id="special"> 
+            <!-- ids can only reference a single element-->
+            <!-- So we can't have another element with the id of special again -->
+            <!-- after this usage. That would be invalid html -->
+            <input type="checkbox">
+            Finish css videos
+        </li>
+    </ul>
+</body>
+</html>

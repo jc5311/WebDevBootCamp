@@ -1,0 +1,23 @@
+h1
+{
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+    border: 8px groove purple;
+
+    color:rgba(0, 200, 100, 0.8);
+}
+
+
+h4
+{
+    background:rgb(255, 100, 80);
+}
+
+body
+{
+    background: pink;
+    /* background: url(https://cdn.shopify.com/s/files/1/0254/2381/products/IMG_1065.jpg?v=1507917970);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
