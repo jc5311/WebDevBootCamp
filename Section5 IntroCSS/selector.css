@@ -1,0 +1,58 @@
+/* Element */
+li
+{
+
+}
+
+/* class */
+.hello
+{
+
+}
+
+/* id */
+#name
+{
+
+}
+
+/* star */
+/* applies to ALL elements */
+* 
+{
+    border: 1px solid lightgrey;
+}
+
+/* Descendant Selector */
+/* Takes two or more tag names/selectors */
+/* Below selects all anchor tags within an li */
+li a
+{
+
+}
+/* Below selects all hello classes within an li */
+li .hello
+{
+
+}
+
+/* Adjacent Selector */
+/* Selects elements which come after another */
+/* Below selects ul's adjacent to h4 */
+h4 + ul
+
+/* Attribute Selector */
+/* Accepts all things of a particular type, href, etc. */
+/* Below selects all anchor tags with href of google.com */
+a[href="http://www.google.com"]
+{
+    background: blue;
+}
+
+/* nth of type */
+/* Takes a number and selects every nth of a given element */
+/* Below selects every third ul */
+ul:nth-of-type(3)
+{
+    background: purple;
+}
